@@ -1,4 +1,4 @@
-fetch('./data/productos.json')
+fetch('../data/productos.json')
   .then(response => response.json())
   .then(productos => {
     const contenedor = document.getElementById('productos-container');
@@ -13,6 +13,7 @@ fetch('./data/productos.json')
         <div class="card-body text-center">
           <h5 class="card-title">${producto.titulo}</h5>
           <p class="card-text">${producto.descripcion}</p>
+          <p class="fw-bold text-azul-club fs-5">${producto.precio}</p>
         </div>
       `;
 
