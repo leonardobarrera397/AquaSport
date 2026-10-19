@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect x="0" y="0" width="400" height="300" fill="#F1FAFC"/>
+  <!-- Gorro de natacion -->
+  <ellipse cx="200" cy="170" rx="95" ry="75" fill="#023E8A"/>
+  <ellipse cx="200" cy="150" rx="95" ry="65" fill="#0096C7"/>
+  <!-- brillo del gorro -->
+  <ellipse cx="170" cy="120" rx="30" ry="18" fill="#48CAE4" opacity="0.6"/>
+  <!-- borde inferior del gorro -->
+  <path d="M105 170 Q 200 215, 295 170" stroke="#023E8A" stroke-width="6" fill="none"/>
+</svg>

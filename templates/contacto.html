@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Contacto - AquaSport</title>
+  <meta name="description" content="Comunicate con el Club de Natación AquaSport. Encontrá nuestra dirección, teléfono y un formulario de contacto.">
+  <meta name="keywords" content="contacto, club de natación, AquaSport, formulario de contacto, dirección, teléfono">
+
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/fonts/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="../styles/style.css">
+</head>
+<body>
+
+  <!-- Seccion principal -->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-aquasport fixed-top">
+      <div class="container">
+        <a class="navbar-brand d-flex align-items-center" href="../index.html">
+          <i class="bi bi-droplet-half logo-club"></i>
+          AquaSport
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal" aria-controls="menuPrincipal" aria-expanded="false" aria-label="Abrir menú de navegación">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="menuPrincipal">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-center">
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="nosotros.html">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="servicios.html">Servicios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="productos.html">Productos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="bg-celeste-claro py-5 mt-2">
+      <div class="container text-center">
+        <h1 class="fw-bold text-azul-club">Contacto</h1>
+        <p class="fs-5">Estamos para ayudarte. Escribinos tu consulta.</p>
+      </div>
+    </section>
+
+    <!-- Seccion formulario -->
+    <section class="py-5">
+      <div class="container">
+        <div class="row g-5">
+
+          <div class="col-lg-5">
+            <h2 class="titulo-seccion">Información de contacto</h2>
+            <ul class="list-unstyled fs-5">
+              <li class="mb-3"><i class="bi bi-geo-alt-fill text-azul-club"></i> Av. San Martín 1234, Mendoza, Argentina</li>
+              <li class="mb-3"><i class="bi bi-telephone-fill text-azul-club"></i> (0261) 555-1234</li>
+              <li class="mb-3"><i class="bi bi-envelope-fill text-azul-club"></i> contacto@aquasport.com</li>
+              <li class="mb-3"><i class="bi bi-clock-fill text-azul-club"></i> Lunes a sábado de 8 a 21 hs</li>
+            </ul>
+
+            <!-- mapa -->
+            <img src="../assets/img/mapa-ubicacion.svg" alt="Mapa con la ubicación del Club AquaSport" class="imagen-banner mt-3">
+          </div>
+
+          <div class="col-lg-7">
+            <h2 class="titulo-seccion">Envianos un mensaje</h2>
+            <form>
+              <div class="row mb-3">
+                <div class="col-md-6">
+                  <label for="nombre" class="form-label">Nombre</label>
+                  <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Ingresá tu nombre" required>
+                </div>
+                <div class="col-md-6">
+                  <label for="apellido" class="form-label">Apellido</label>
+                  <input type="text" class="form-control" id="apellido" name="apellido" placeholder="Ingresá tu apellido" required>
+                </div>
+              </div>
+              <div class="row mb-3">
+                <div class="col-md-6">
+                  <label for="email" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="email" name="email" placeholder="ejemplo@correo.com" required>
+                </div>
+                <div class="col-md-6">
+                  <label for="telefono" class="form-label">Teléfono</label>
+                  <input type="tel" class="form-control" id="telefono" name="telefono" placeholder="Ej: 261 555 1234">
+                </div>
+              </div>
+              <div class="mb-3">
+                <label for="mensaje" class="form-label">Mensaje</label>
+                <textarea class="form-control" id="mensaje" name="mensaje" rows="5" placeholder="Escribí tu consulta aquí" required></textarea>
+              </div>
+              
+              <button type="submit" class="btn btn-primary btn-lg">
+                <i class="bi bi-send-fill"></i> Enviar mensaje
+              </button>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="pie-personalizado py-4">
+    <div class="container">
+      <div class="d-flex flex-column flex-md-row justify-content-between align-items-center flex-wrap gap-3">
+
+        <div class="text-center text-md-start">
+          <h5 class="text-white"><i class="bi bi-droplet-half"></i> AquaSport</h5>
+          <p class="mb-1"><i class="bi bi-geo-alt-fill"></i> Av. San Martín 1234, Mendoza, Argentina</p>
+          <p class="mb-1"><i class="bi bi-telephone-fill"></i> (0261) 555-1234</p>
+          <p class="mb-0"><i class="bi bi-envelope-fill"></i> contacto@aquasport.com</p>
+        </div>
+
+        <div class="text-center">
+          <p class="mb-2">Seguinos en nuestras redes</p>
+          <a href="#" class="icono-red-social" aria-label="Instagram de AquaSport"><i class="bi bi-instagram"></i></a>
+          <a href="#" class="icono-red-social" aria-label="Facebook de AquaSport"><i class="bi bi-facebook"></i></a>
+          <a href="#" class="icono-red-social" aria-label="Whatsapp de AquaSport"><i class="bi bi-whatsapp"></i></a>
+        </div>
+
+      </div>
+
+      <hr class="border-light">
+
+      <p class="text-center mb-0">&copy; 2026 Club de Natación AquaSport. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="../assets/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

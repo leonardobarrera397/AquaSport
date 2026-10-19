@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Productos - AquaSport</title>
+  <meta name="description" content="Descubrí los productos del Club AquaSport: gorros de natación, antiparras y tablas de entrenamiento.">
+  <meta name="keywords" content="productos de natación, gorro de natación, antiparras, tabla de entrenamiento, AquaSport">
+
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/fonts/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="../styles/style.css">
+</head>
+<body>
+
+  <!-- Seccion principal -->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-aquasport fixed-top">
+      <div class="container">
+        <a class="navbar-brand d-flex align-items-center" href="../index.html">
+          <i class="bi bi-droplet-half logo-club"></i>
+          AquaSport
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal" aria-controls="menuPrincipal" aria-expanded="false" aria-label="Abrir menú de navegación">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="menuPrincipal">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-center">
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="nosotros.html">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="servicios.html">Servicios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="productos.html">Productos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="bg-celeste-claro py-5 mt-2">
+      <div class="container text-center">
+        <h1 class="fw-bold text-azul-club">Nuestros Productos</h1>
+        <p class="fs-5">Todo lo que necesitás para entrenar con el sello AquaSport</p>
+      </div>
+    </section>
+
+    <!-- Seccion productos -->
+    <section class="py-5">
+      <div class="container">
+
+        <div class="d-flex flex-wrap justify-content-center gap-4">
+          <article class="card tarjeta-curso shadow-sm" style="width: 18rem;">
+            <img src="../assets/img/producto-gorro.svg" class="card-img-top" alt="Gorro de natación AquaSport">
+            <div class="card-body text-center">
+              <h5 class="card-title">Gorro de natación</h5>
+              <p class="card-text">Gorro de silicona resistente, con el logo del club. Disponible en distintos colores.</p>
+              <p class="fw-bold text-azul-club fs-5">$3.500</p>
+            </div>
+          </article>
+          <article class="card tarjeta-curso shadow-sm" style="width: 18rem;">
+            <img src="../assets/img/producto-antiparras.svg" class="card-img-top" alt="Antiparras de natación AquaSport">
+            <div class="card-body text-center">
+              <h5 class="card-title">Antiparras</h5>
+              <p class="card-text">Antiparras con protección anti empañante y ajuste cómodo para entrenamientos largos.</p>
+              <p class="fw-bold text-azul-club fs-5">$8.900</p>
+            </div>
+          </article>
+          <article class="card tarjeta-curso shadow-sm" style="width: 18rem;">
+            <img src="../assets/img/producto-tabla.svg" class="card-img-top" alt="Tabla de entrenamiento (kickboard) AquaSport">
+            <div class="card-body text-center">
+              <h5 class="card-title">Tabla de entrenamiento</h5>
+              <p class="card-text">Tabla flotante (kickboard) ideal para ejercicios de piernas y técnica de patada.</p>
+              <p class="fw-bold text-azul-club fs-5">$6.200</p>
+            </div>
+          </article>
+
+        </div>
+
+        <p class="text-center mt-4">
+          <i class="bi bi-info-circle"></i> Los productos se pueden retirar en la recepción del club.
+          Para consultar disponibilidad, comunicate con nosotros desde la
+          <a href="contacto.html">página de contacto</a>.
+        </p>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="pie-personalizado py-4">
+    <div class="container">
+      <div class="d-flex flex-column flex-md-row justify-content-between align-items-center flex-wrap gap-3">
+
+        <div class="text-center text-md-start">
+          <h5 class="text-white"><i class="bi bi-droplet-half"></i> AquaSport</h5>
+          <p class="mb-1"><i class="bi bi-geo-alt-fill"></i> Av. San Martín 1234, Mendoza, Argentina</p>
+          <p class="mb-1"><i class="bi bi-telephone-fill"></i> (0261) 555-1234</p>
+          <p class="mb-0"><i class="bi bi-envelope-fill"></i> contacto@aquasport.com</p>
+        </div>
+
+        <div class="text-center">
+          <p class="mb-2">Seguinos en nuestras redes</p>
+          <a href="#" class="icono-red-social" aria-label="Instagram de AquaSport"><i class="bi bi-instagram"></i></a>
+          <a href="#" class="icono-red-social" aria-label="Facebook de AquaSport"><i class="bi bi-facebook"></i></a>
+          <a href="#" class="icono-red-social" aria-label="Whatsapp de AquaSport"><i class="bi bi-whatsapp"></i></a>
+        </div>
+
+      </div>
+
+      <hr class="border-light">
+
+      <p class="text-center mb-0">&copy; 2026 Club de Natación AquaSport. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="../assets/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

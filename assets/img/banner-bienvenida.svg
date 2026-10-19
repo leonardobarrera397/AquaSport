@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 500">
+  <!-- Cielo de fondo -->
+  <rect x="0" y="0" width="1200" height="500" fill="#90E0EF"/>
+  <rect x="0" y="0" width="1200" height="230" fill="#CAF0F8"/>
+
+  <!-- Sol simple -->
+  <circle cx="1040" cy="90" r="55" fill="#FFFFFF" opacity="0.9"/>
+
+  <!-- Agua de la pileta -->
+  <rect x="0" y="230" width="1200" height="270" fill="#0096C7"/>
+  <rect x="0" y="230" width="1200" height="25" fill="#48CAE4"/>
+
+  <!-- Lineas de carril de la pileta -->
+  <line x1="0" y1="320" x2="1200" y2="320" stroke="#FFFFFF" stroke-width="6" stroke-dasharray="40 25" opacity="0.6"/>
+  <line x1="0" y1="400" x2="1200" y2="400" stroke="#FFFFFF" stroke-width="6" stroke-dasharray="40 25" opacity="0.6"/>
+
+  <!-- Ondas decorativas del agua -->
+  <path d="M0 260 Q 50 250, 100 260 T 200 260 T 300 260 T 400 260 T 500 260 T 600 260 T 700 260 T 800 260 T 900 260 T 1000 260 T 1100 260 T 1200 260" stroke="#FFFFFF" stroke-width="4" fill="none" opacity="0.5"/>
+  <path d="M0 470 Q 50 460, 100 470 T 200 470 T 300 470 T 400 470 T 500 470 T 600 470 T 700 470 T 800 470 T 900 470 T 1000 470 T 1100 470 T 1200 470" stroke="#FFFFFF" stroke-width="4" fill="none" opacity="0.4"/>
+
+  <!-- Nadador estilo simple (figura de palitos estilizada nadando crol) -->
+  <g transform="translate(560,330)">
+    <!-- cuerpo -->
+    <ellipse cx="0" cy="0" rx="70" ry="16" fill="#023E8A"/>
+    <!-- cabeza -->
+    <circle cx="68" cy="-6" r="16" fill="#FFD60A"/>
+    <!-- brazo extendido hacia adelante -->
+    <path d="M55 -10 Q 95 -35, 120 -55" stroke="#023E8A" stroke-width="10" fill="none" stroke-linecap="round"/>
+    <!-- brazo hacia atras -->
+    <path d="M-55 0 Q -90 15, -110 35" stroke="#023E8A" stroke-width="10" fill="none" stroke-linecap="round"/>
+    <!-- piernas pateando -->
+    <path d="M-65 5 Q -95 -10, -125 0" stroke="#023E8A" stroke-width="10" fill="none" stroke-linecap="round"/>
+    <path d="M-65 5 Q -90 20, -118 22" stroke="#023E8A" stroke-width="10" fill="none" stroke-linecap="round"/>
+    <!-- salpicaduras -->
+    <circle cx="-130" cy="-4" r="5" fill="#FFFFFF" opacity="0.8"/>
+    <circle cx="-145" cy="6" r="4" fill="#FFFFFF" opacity="0.8"/>
+    <circle cx="125" cy="-58" r="4" fill="#FFFFFF" opacity="0.8"/>
+  </g>
+
+  <!-- Burbujas decorativas -->
+  <circle cx="250" cy="400" r="6" fill="#FFFFFF" opacity="0.5"/>
+  <circle cx="270" cy="430" r="4" fill="#FFFFFF" opacity="0.5"/>
+  <circle cx="950" cy="380" r="5" fill="#FFFFFF" opacity="0.5"/>
+  <circle cx="970" cy="410" r="3" fill="#FFFFFF" opacity="0.5"/>
+</svg>

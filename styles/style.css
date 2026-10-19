@@ -1,0 +1,126 @@
+:root {
+  --color-azul-oscuro: #023e8a;   /* Azul principal del club */
+  --color-azul-medio: #0096c7;    /* Azul secundario */
+  --color-celeste: #48cae4;       /* Celeste de acento */
+  --color-celeste-claro: #caf0f8; /* Celeste claro para fondos */
+  --color-blanco: #ffffff;        /* Blanco */
+}
+
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  color: #1b1b1b;
+  padding-top: 50px;
+}
+
+.bg-celeste-claro {
+  background-color: var(--color-celeste-claro);
+}
+
+.text-azul-club {
+  color: var(--color-azul-oscuro);
+}
+
+/* Navbar */
+.navbar-aquasport {
+  background-color: var(--color-azul-oscuro);
+}
+
+.logo-club {
+  font-size: 1.6rem;
+  color: var(--color-celeste);
+  margin-right: 6px;
+}
+
+/* Color del link activo */
+.navbar-aquasport .nav-link.active {
+  color: var(--color-celeste) !important;
+  font-weight: bold;
+}
+
+
+.seccion-principal {
+  position: relative;
+  overflow: hidden;
+}
+
+.seccion-principal img {
+  width: 100%;
+  height: 480px;
+  object-fit: cover;
+}
+
+/* Capa oscura transparente para que el texto se lea mejor
+   arriba de la imagen principal */
+.seccion-principal .capa-oscura {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(2, 62, 138, 0.45);
+  display: flex;
+  align-items: center;
+}
+
+.titulo-seccion {
+  color: var(--color-azul-oscuro);
+  font-weight: bold;
+  position: relative;
+  padding-bottom: 12px;
+  margin-bottom: 30px;
+}
+
+/* tarjetas */
+.tarjeta-curso {
+  border: none;
+  border-top: 5px solid var(--color-azul-medio);
+  transition: transform 0.2s ease-in-out;
+}
+
+/* hover tarjeta*/
+.tarjeta-curso:hover {
+  transform: translateY(-6px);
+}
+
+/* Icono dentro de las tarjetas de beneficios y servicios */
+.tarjeta-curso .icono-tarjeta {
+  font-size: 2.5rem;
+  color: var(--color-azul-medio);
+}
+
+/* banner */
+.imagen-banner {
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  width: 100%;
+  height: auto;
+}
+
+/* (CTA) */
+.seccion-cta {
+  background-color: var(--color-azul-medio);
+  color: var(--color-blanco);
+}
+
+/* Footer */
+.pie-personalizado {
+  background-color: var(--color-azul-oscuro);
+  color: var(--color-celeste-claro);
+}
+
+.pie-personalizado a {
+  color: var(--color-blanco);
+  text-decoration: none;
+}
+
+.pie-personalizado a:hover {
+  color: var(--color-celeste);
+  text-decoration: underline;
+}
+
+/* Iconos de redes sociales del footer */
+.pie-personalizado .icono-red-social {
+  font-size: 1.4rem;
+  margin: 0 6px;
+}
+
