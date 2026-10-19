@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "titulo": "Gafas de natación profesionales",
+    "descripcion": "Gafas con lentes antivaho y protección UV, correa ajustable de silicona. Ideales para entrenamiento y competencia.",
+    "url_imagen": "https://images.unsplash.com/photo-1600965962361-9035dbfd1c50?w=400"
+  },
+  {
+    "id": 2,
+    "titulo": "Traje de baño de competición masculino",
+    "descripcion": "Bañador de competición de tela de poliéster de alta resistencia al cloro. Corte aerodinámico para máximo rendimiento.",
+    "url_imagen": "https://images.unsplash.com/photo-1519315901367-f34ff9154487?w=400"
+  },
+  {
+    "id": 3,
+    "titulo": "Malla de natación femenina",
+    "descripcion": "Malla de una pieza con tela resistente al cloro y secado rápido. Diseño ergonómico para entrenamiento intensivo.",
+    "url_imagen": "https://images.unsplash.com/photo-1530549387789-4c1017266635?w=400"
+  },
+  {
+    "id": 4,
+    "titulo": "Gorro de silicona",
+    "descripcion": "Gorro de silicona elástico y resistente, reduce la resistencia del agua y protege el cabello del cloro.",
+    "url_imagen": "https://images.unsplash.com/photo-1560272564-c83b66b1ad12?w=400"
+  },
+  {
+    "id": 5,
+    "titulo": "Tabla de natación (kickboard)",
+    "descripcion": "Tabla flotadora de espuma EVA de alta densidad para el trabajo de piernas. Ergonómica y liviana.",
+    "url_imagen": "https://images.unsplash.com/photo-1575429198097-0414ec08e8cd?w=400"
+  },
+  {
+    "id": 6,
+    "titulo": "Pull buoy",
+    "descripcion": "Flotador de figura 8 para trabajo de brazos. Mantiene las caderas a flote para mejorar la técnica de los brazos.",
+    "url_imagen": "https://images.unsplash.com/photo-1600965962361-9035dbfd1c50?w=400"
+  },
+  {
+    "id": 7,
+    "titulo": "Aletas de entrenamiento",
+    "descripcion": "Aletas cortas de silicona para mejorar la técnica de patada y aumentar la velocidad en entrenamiento.",
+    "url_imagen": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=400"
+  },
+  {
+    "id": 8,
+    "titulo": "Paletas de natación",
+    "descripcion": "Paletas planas de plástico para manos que aumentan la resistencia en el agua y fortalecen los músculos del tren superior.",
+    "url_imagen": "https://images.unsplash.com/photo-1519315901367-f34ff9154487?w=400"
+  },
+  {
+    "id": 9,
+    "titulo": "Snorkel frontal de natación",
+    "descripcion": "Snorkel de posición frontal que permite nadar sin girar la cabeza para respirar, ideal para perfeccionar la técnica.",
+    "url_imagen": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=400"
+  },
+  {
+    "id": 10,
+    "titulo": "Bolsa de malla para equipamiento",
+    "descripcion": "Bolsa de malla transpirable para transportar y secar el equipo de natación. Resistente al agua y muy espaciosa.",
+    "url_imagen": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=400"
+  },
+  {
+    "id": 11,
+    "titulo": "Cronómetro para piscina",
+    "descripcion": "Reloj cronómetro resistente al agua hasta 50 metros con memoria de vueltas, ideal para nadadores de entrenamiento.",
+    "url_imagen": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400"
+  },
+  {
+    "id": 12,
+    "titulo": "Tapones para oídos acuáticos",
+    "descripcion": "Tapones de silicona maleables que protegen los oídos del agua durante la natación. Cómodos y reutilizables.",
+    "url_imagen": "https://images.unsplash.com/photo-1560272564-c83b66b1ad12?w=400"
+  },
+  {
+    "id": 13,
+    "titulo": "Pinza nasal para natación",
+    "descripcion": "Pinza nasal de silicona suave que evita la entrada de agua por la nariz. Compatible con todos los tamaños.",
+    "url_imagen": "https://images.unsplash.com/photo-1600965962361-9035dbfd1c50?w=400"
+  },
+  {
+    "id": 14,
+    "titulo": "Traje de baño de aguas abiertas",
+    "descripcion": "Traje de neopreno de 3mm para natación en aguas abiertas. Proporciona flotabilidad, aislamiento térmico y libertad de movimiento.",
+    "url_imagen": "https://images.unsplash.com/photo-1530549387789-4c1017266635?w=400"
+  },
+  {
+    "id": 15,
+    "titulo": "Cordón elástico de resistencia",
+    "descripcion": "Banda elástica para entrenar en natación estática. Permite trabajar la técnica y la fuerza sin moverse del lugar.",
+    "url_imagen": "https://images.unsplash.com/photo-1575429198097-0414ec08e8cd?w=400"
+  },
+  {
+    "id": 16,
+    "titulo": "Guantes de natación con membrana",
+    "descripcion": "Guantes con membrana interdigital que aumentan la resistencia y mejoran la propulsión en el agua.",
+    "url_imagen": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=400"
+  },
+  {
+    "id": 17,
+    "titulo": "Toalla de microfibra de secado rápido",
+    "descripcion": "Toalla ultraabsorbente de microfibra, liviana y compacta. Se seca en minutos y es perfecta para la piscina.",
+    "url_imagen": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=400"
+  },
+  {
+    "id": 18,
+    "titulo": "Gafas de natación infantiles",
+    "descripcion": "Gafas diseñadas para niños con sello de silicona suave y correa ajustable. Lentes coloridas con protección UV.",
+    "url_imagen": "https://images.unsplash.com/photo-1519315901367-f34ff9154487?w=400"
+  },
+  {
+    "id": 19,
+    "titulo": "Contador de vueltas digital",
+    "descripcion": "Dispositivo electrónico para el dedo que cuenta automáticamente las vueltas en pileta. Resistente al agua.",
+    "url_imagen": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400"
+  },
+  {
+    "id": 20,
+    "titulo": "Mochila impermeable para natación",
+    "descripcion": "Mochila 100% impermeable con compartimentos para ropa seca, equipo mojado y accesorios. Ideal para el deportista acuático.",
+    "url_imagen": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=400"
+  }
+]
